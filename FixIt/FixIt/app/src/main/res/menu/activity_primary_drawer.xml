@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/findmechanic"
+            android:icon="@drawable/find"
+            android:title="Find Mechanic" />
+        <item
+            android:id="@+id/tpayment"
+            android:icon="@drawable/payment"
+            android:title="Transport Fare" />
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/chat"
+            android:title="Chat" />
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/account"
+            android:title="Account" />
+
+
+
+
+
+    </group>
+
+    <item android:title="Preferences">
+        <menu>
+            <item
+                android:id="@+id/support"
+                android:icon="@drawable/support"
+                android:title="Support" />
+
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
